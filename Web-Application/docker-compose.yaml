@@ -5,6 +5,7 @@ services:
     build:
       context: ./database # My Database startfile is in the 'Database' directory
       dockerfile: Dockerfile # The Dockerfile for the database mongodb
+      image: myapp_mongo:latest  # Add this line
     # volumes:
     #   - ./pizzas.json:/docker-entrypoint-initdb.d/pizzas.json:ro
     networks:
@@ -15,6 +16,7 @@ services:
       context: ./api # My backend code is in the 'Back-end' directory
       dockerfile: Dockerfile # The Dockerfile for the backend Node.js application
     container_name: graduation-project-backend
+    image: myapp_backend:latest 
     ports:
       - "5000:5000" # Maps backend port 3000 to host
     depends_on:
@@ -31,6 +33,7 @@ services:
       args:
         - API_URL=http://backend:3000 # API URL for the backend using service name
     container_name: graduation-project-frontend
+    image: myapp_frontend:latest
     ports:
       - "3000:80" # Exposes frontend on port 3001
     depends_on:
