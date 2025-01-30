@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #0056d2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-logo img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.menu-button {
+  background: none;
+  color: var(--primary-color);
+  border: 0.1rem solid var(--primary-color);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.join-button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.browse-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  width: max-content;
+}
+
+.browse-link:hover,
+.browse-link:focus,
+.browse-link:focus-visible {
+    border-bottom: 1px solid var(--primary-color);
+}

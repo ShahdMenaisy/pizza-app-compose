@@ -1,0 +1,16 @@
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: linear-gradient(to right, #ff6f61, #ff9068);
+    /* Gradient button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #ff6f61;
+}

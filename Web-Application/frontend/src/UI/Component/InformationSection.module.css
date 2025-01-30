@@ -1,0 +1,9 @@
+.info-section {
+    width: 50%;
+    color: #fff;
+    padding: 40px;
+    background-color: #20232a;
+    /* Darker React color on left side */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

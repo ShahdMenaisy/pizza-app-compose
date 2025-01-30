@@ -1,0 +1,18 @@
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}

@@ -1,0 +1,9 @@
+.learn-more-btn {
+    background-color: #ff6f61;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
