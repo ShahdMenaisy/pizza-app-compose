@@ -5,7 +5,7 @@ services:
     build:
       context: ./database # My Database startfile is in the 'Database' directory
       dockerfile: Dockerfile # The Dockerfile for the database mongodb
-      image: myapp_mongo:latest  # Add this line
+    image: myapp_mongo:latest 
     # volumes:
     #   - ./pizzas.json:/docker-entrypoint-initdb.d/pizzas.json:ro
     networks:
